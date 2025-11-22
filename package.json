@@ -1,13 +1,13 @@
 {
   "name": "graph6",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Graph6 is a class with two static methods: one to convert a matrix into a text string in the .g6 format specification, and another to perform the inverse process.",
   "keywords": [
     "graph6",
     "graph",
     "converter"
   ],
-  "homepage": "https://github.com/renancarvalhops/graph6#readme",
+  "homepage": "https://github.com/renancarvalhops/graph6",
   "bugs": {
     "url": "https://github.com/renancarvalhops/graph6/issues"
   },
