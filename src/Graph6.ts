@@ -67,9 +67,9 @@ export default class Graph6 {
         if (0 <= n && n <= 62) {
             charCodes = Number(n + 63).toString();
         } else if (63 <= n && n <= 258047) {
-            charCodes = '126 ' + this.R(Number(n).toString(2));
+            charCodes = '126 ' + this.R(n.toString(2).padStart(18, '0'));
         } else if (258048 <= n && n <= 68719476735) {
-            charCodes = '126 126 ' + this.R(Number(n).toString(2));
+            charCodes = '126 126 ' + this.R(n.toString(2).padStart(36, '0'));
         }
     
         return charCodes;
